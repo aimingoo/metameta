@@ -1,0 +1,25 @@
+{
+  "name": "metameta",
+  "version": "0.9.1",
+  "description": "Meta core and meta-class programming framework.",
+  "main": "index.js",
+  "author": {
+    "name": "aimingoo",
+    "mail": "aiming@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aimingoo/metameta.git"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "istanbul cover _mocha --root=./ --dir=coverage --report=none --print detail"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "mocha-logger": "^1.0.3"
+  },
+  "license": "Apache-2.0"
+}
