@@ -1,5 +1,5 @@
 {
-  "name": "metameta",
+  "name": "@aimingoo/metameta",
   "version": "0.9.1",
   "description": "Meta core and meta-class programming framework.",
   "main": "index.js",

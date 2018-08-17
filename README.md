@@ -21,7 +21,7 @@ Metameta is meta core and meta-class programming framework.
 
 ```bash
 # install from npm
-> npm install metameta
+> npm install @aimingoo/metameta
 
 # OR, install from github
 > npm install aimingoo/metameta
@@ -31,7 +31,7 @@ And use in javascript
 
 ```javascript
 // Meta core
-var {Meta, MetaClass, MetaObject} = require('metameta');
+var {Meta, MetaClass, MetaObject} = require('@aimingoo/metameta');
 
 // Helper methods, all home object safed.
 var {isMeta, isAtom, asAtom} = Meta;
