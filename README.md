@@ -48,7 +48,7 @@ console.log(Meta.isAtom(new Objext)); // true
 
 ### atom
 
-The **atom** is smallest unit of pure object in javascript, it's object but not inherited from Object(). An atom is a object. `null`, `Object.prototype`, `arguments` and `namespace` are atom objects in javascript language.
+The **atom** is smallest unit of pure object in javascript, it's object but not inherited from Object(). An atom is a object. `null`, `Object.prototype`, ~~`arguments`~~ and `namespace` are atom objects in javascript language.
 
 ```bash
 > Meta.isAtom(null);
